@@ -1,0 +1,82 @@
+/* Login Page */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background: linear-gradient(to right, #111, #333);
+  }
+  
+  .login-form {
+    background: #1a1a1a;
+    border: 2px solid gold;
+    border-radius: 15px;
+    padding: 30px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.2);
+  }
+  
+  .login-form h2 {
+    color: gold;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #f5f5f5;
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    background: #0d0d0d;
+    color: #f5f5f5;
+    font-size: 14px;
+  }
+  
+  .form-group input:focus {
+    border-color: gold;
+    outline: none;
+  }
+  
+  .login-form button {
+    background: gold;
+    color: #111;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .login-form button:hover {
+    background: #e6b800;
+  }
+  
+  .login-form .extra {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #ccc;
+  }
+  
+  .login-form .extra a {
+    color: gold;
+    text-decoration: none;
+  }
+  
+  .login-form .extra a:hover {
+    text-decoration: underline;
+  }
+  
